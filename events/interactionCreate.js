@@ -14,22 +14,22 @@ module.exports = async (client, int) => {
             selectMenu.setPlaceholder('Choose a reason for the ticket');
             selectMenu.addOptions([
                 {
-                    emoji: '🐛',
-                    label: 'None',
-                    description: 'No reason',
-                    value: 'newTicket'
+                    emoji: '906785808940425267',
+                    label: 'Join Eros E City',
+                    description: 'click here > Contact to the Eros Staff.',
+                    value: 'newTicket_Moderation'
                 },
                 {
-                    emoji: '🦙',
+                    emoji: '906789510996721664',
                     label: 'Support',
-                    description: 'Ask for help',
+                    description: 'click here > Contact to the Admin',
                     value: 'newTicket_Support'
                 },
                 {
-                    emoji: '🐎',
-                    label: 'Moderation',
-                    description: 'Talking with the team',
-                    value: 'newTicket_Moderation'
+                    emoji: '906790955582124112',
+                    label: 'Report a Problem',
+                    description: 'click here > Contact to the Owner,Admin or Devoloper',
+                    value: 'newTicket'
                 },
             ]);
 
